@@ -1,0 +1,2 @@
+# VideoPanningShotIdentificationAndExtraction
+MovingShotExtraction
