@@ -1,4 +1,4 @@
-<h1> Extraction And  Stiching of Panning Shot from Video Files  </h1>
+<h1> Extraction And  Stiching of Panning Shots from Video Files  </h1>
 
 <p>This repository provides a solution for automatically detecting and extracting panning shots in video files. Panning shots are a common technique in animation where the camera or background moves horizontally, creating an illusion of motion and depth. This technique not only adds visual interest but also serves as a cost-saving measure by minimizing the need to animate individual elements separately. </p>
 
