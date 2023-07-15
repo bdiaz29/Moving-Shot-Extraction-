@@ -1,0 +1,11 @@
+opencv-python
+numpy
+onnx
+onnxruntime
+onnxruntime-gpu
+imagehash
+Pillow
+decord
+tqdm
+#for trt install pycuda from pip and tensorrt from the wheel nvidias provides for it
+#pycuda
