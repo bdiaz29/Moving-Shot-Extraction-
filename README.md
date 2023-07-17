@@ -15,7 +15,7 @@ A visual representation of the concept is shown in the animation below
 
 
 <p>
-    To use this script you first need to download the optical flow models from <a href="https://github.com/PINTO0309/PINTO_model_zoo/tree/main/252_RAFT"> PINTO model zoo</a> and place it in the models folder. The script supports running onnx files or tensortRT enginers if you convert those files. 
+    To use this script you first need to download the optical flow models from <a href="https://github.com/PINTO0309/PINTO_model_zoo/tree/main/252_RAFT"> PINTO model zoo</a> and place it in the models folder. The script supports running onnx files or tensortRT engines if you convert those files. 
 
 </p>
 
