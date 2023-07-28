@@ -39,4 +39,11 @@ Explantion of script parameters <br></br>
  <b> --model_path </b> the path of the optical flow model
 </br>
 
+a gui was also added for ease of use 
+<br>
+
+![image](https://github.com/bdiaz29/Moving-Shot-Extraction-/assets/16212103/312a8b86-7916-492b-960d-1cbf44d57fc8)
+
+to install simply pip install requirments.txt
+
 
