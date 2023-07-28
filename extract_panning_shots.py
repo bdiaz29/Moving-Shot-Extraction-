@@ -42,7 +42,7 @@ def panning_process(args):
             flowestimator = Raft_TRT(args.model_path)
         except Exception as ex:
             print(ex)
-            print("resoring to onnx models")
+            print("r to onnx models")
     else:
         from MLUtils import RaftOnnx
         flowestimator=RaftOnnx(args.model_path)
@@ -75,7 +75,7 @@ def panning_process(args):
     pbar = tqdm(total=frame_count - start_frame)
     im = vr[start_frame - 1].asnumpy()[:, :, ::-1]
 
-    acc = FrameAccumulator(im, flowestimator, frame_count, args.frame_skip, stdv=1.5, angle_tolerance=.4)
+    acc = FrameAccumulator(im, flowestimator, frame_count, int(float(args.frame_skip)), stdv=1.5, angle_tolerance=.4)
     for f in range(start_frame, int(frame_count / 1)):
         pbar.update(1)
         newframe = {'img': vr.next().asnumpy()[:, :, ::-1], 'frame_counter': f}
@@ -90,7 +90,7 @@ def panning_process(args):
     for stich_group in stitch_candidate_groups:
         x_range, y_range = get_ranges(stich_group, flowestimator.get_height(), flowestimator.get_width())
         mx = max(x_range, y_range)
-        if mx < args.min_range:
+        if mx < float(args.min_range):
             frame_indexes = [d['frame_counter'] for d in stich_group]
 
             starting_frame = min(d['frame_counter'] for d in stich_group)
