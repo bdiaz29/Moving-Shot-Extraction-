@@ -53,6 +53,7 @@ pip install -r requirements.txt
 <h1> Caveat  </h1>
 
 The Stitching process isn't always perfect and so you should always do a manual inspection of the stiches before including them in a dataset. 
+I'm still trying to figure out the best approach to dealing with frames that are panning where there is character movement. 
 
 
 
