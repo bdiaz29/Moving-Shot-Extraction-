@@ -44,6 +44,11 @@ a gui was also added for ease of use
 
 ![image](https://github.com/bdiaz29/Moving-Shot-Extraction-/assets/16212103/312a8b86-7916-492b-960d-1cbf44d57fc8)
 
-to install simply pip install requirments.txt
+<h1> Installation  </h1>
+
+git clone https://github.com/bdiaz29/Moving-Shot-Extraction-
+<br>
+pip install -r requirements.txt
+
 
 
