@@ -50,5 +50,9 @@ git clone https://github.com/bdiaz29/Moving-Shot-Extraction-
 <br>
 pip install -r requirements.txt
 
+<h1> Caveat  </h1>
+
+The Stitching process isn't always perfect and so you should always do a manual inspection of the stiches before including them in a dataset. 
+
 
 
